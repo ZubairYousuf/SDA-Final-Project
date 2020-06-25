@@ -257,5 +257,7 @@
 												});
                                             });
                                         });
+                                        // views updated
 </script>     
     <?php $this->load->view('backend/footer'); ?>        
+    
