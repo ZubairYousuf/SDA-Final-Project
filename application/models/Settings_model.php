@@ -3,9 +3,9 @@
 	class Settings_model extends CI_Model{
 
 
-	function __consturct(){
-	parent::__construct();
-	
+		function __consturct(){
+		parent::__construct();
+	//constructor logic added via oop
 	}
     public function GetSettingsValue(){
 		$settings = $this->db->dbprefix('settings');
