@@ -2,27 +2,28 @@
 
 	class Loan_model extends CI_Model{
 
+    //loan logic for employee
 
 	function __consturct(){
 	parent::__construct();
 	
 	}
-    public function Add_LoanData($data){
-        $this->db->insert('loan',$data);
-    }
-    public function Add_installData($data){
-        $this->db->insert('loan_installment', $data);
-    }
-    public function loan_modeldata(){
-    $sql = "SELECT `loan`.*,
-      `employee`.`em_id`,`first_name`,`last_name`,`em_code`
-      FROM `loan`
-      LEFT JOIN `employee` ON `loan`.`emp_id`=`employee`.`em_id` ORDER BY `loan`.`id` DESC";
-        $query=$this->db->query($sql);
-		$result = $query->result();
-		return $result;  
-    }
-    public function LoanValselect($id){
+  public function Add_LoanData($data){
+    $this->db->insert('loan',$data);
+}
+public function Add_installData($data){
+    $this->db->insert('loan_installment', $data);
+}
+public function loan_modeldata(){
+$sql = "SELECT `loan`.*,
+  `employee`.`em_id`,`first_name`,`last_name`,`em_code`
+  FROM `loan`
+  LEFT JOIN `employee` ON `loan`.`emp_id`=`employee`.`em_id` ORDER BY `loan`.`id` DESC";
+    $query=$this->db->query($sql);
+$result = $query->result();
+return $result;  
+}
+public function LoanValselect($id){
     $sql = "SELECT `loan`.*,
       `employee`.`em_id`,`first_name`,`last_name`,`em_code`
       FROM `loan`
