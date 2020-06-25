@@ -1,6 +1,6 @@
 <?php
 
-	class Leave_model extends CI_Model {
+class Leave_model extends CI_Model {
 
 
 	function __consturct(){
@@ -11,7 +11,7 @@
         $this->db->insert('holiday',$data);
     }
 
-    // Add the application of leave with ID no ID
+    
     public function Application_Apply($data){
         $this->db->insert('emp_leave',$data);
     }
@@ -290,6 +290,7 @@
         $sql = "SELECT * FROM `holiday` WHERE ('$day' = `holiday`.`from_date`) OR ('$day' BETWEEN `holiday`.`from_date` AND `holiday`.`to_date`)";
         $query = $this->db->query($sql);
         return $query->row();
+        //leave logic for employee including holiday leaves and payscale calculating
     }
     }
 ?>    

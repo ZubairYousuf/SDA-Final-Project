@@ -1,6 +1,6 @@
 <?php
 	defined('BASEPATH') OR exit('No direct script access allowed');
-
+//loading modules and assigning in projects....
 class Projects extends CI_Controller
 {
 

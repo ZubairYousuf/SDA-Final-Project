@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
-
+//aded the logic for giving loan to employee....
 class Loan extends CI_Controller
 {
 	public function __construct()

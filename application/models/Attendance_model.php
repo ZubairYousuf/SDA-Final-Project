@@ -96,6 +96,7 @@ class Attendance_model extends CI_Model
         $result = $query->result();
         return $result;
         //All Attendance and function are given for attendance
+        //can be used to get update delete basically it is crud app logic here.
     }
 }
 
