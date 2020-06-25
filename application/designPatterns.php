@@ -79,3 +79,4 @@ abstract class Handler
 }
 
 
+// Implemented design pattern
