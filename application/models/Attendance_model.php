@@ -95,6 +95,7 @@ class Attendance_model extends CI_Model
         $query  = $this->db->query($sql);
         $result = $query->result();
         return $result;
+        //All Attendance and function are given for attendance
     }
 }
 
