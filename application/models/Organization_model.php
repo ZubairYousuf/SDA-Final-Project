@@ -52,6 +52,7 @@ class Organization_model extends CI_Model{
         $query = $this->db->get('designation');
         $result = $query->result();
         return $result;
+        // function rechecked
     }    
 }
 ?>
