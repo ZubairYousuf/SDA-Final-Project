@@ -93,5 +93,6 @@
                             </div>
                         </div>
                         <!-- /.modal --> 
+                        <!-- /.view updated-->
   
 <?php $this->load->view('backend/footer'); ?>
