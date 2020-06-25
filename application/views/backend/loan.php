@@ -5,7 +5,7 @@
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
                     <h3 class="text-themecolor"><i class="fa fa-hourglass-1" aria-hidden="true"></i> Grand Loan</h3>
-                </div>
+                    </div>
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
