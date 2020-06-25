@@ -16,10 +16,11 @@
             <div class="container-fluid">
                 <div class="row m-b-10"> 
                     <div class="col-12">
-                        <button type="button" class="btn btn-info"><i class="fa fa-plus"></i><a data-toggle="modal" data-target="#supportmodel" data-whatever="@getbootstrap" class="text-white"><i class="" aria-hidden="true"></i> Add Logistic Support</a></button>                       
+                    <button type="button" class="btn btn-info"><i class="fa fa-plus"></i><a data-toggle="modal" data-target="#supportmodel" data-whatever="@getbootstrap" class="text-white"><i class="" aria-hidden="true"></i> Add Logistic Support</a></button>                       
                         <button type="button" class="btn btn-primary"><i class="fa fa-bars"></i><a href="<?php echo base_url(); ?>Projects/All_Assets" class="text-white"><i class="" aria-hidden="true"></i>  Assets List</a></button>
                         <button type="button" class="btn btn-primary"><i class="fa fa-bars"></i><a href="<?php echo base_url(); ?>Logistice/Logistic_Support" class="text-white"><i class="" aria-hidden="true"></i>  Logistic Support</a></button>
                     </div>
+                    <!--change the buttons -->
                 </div>
                 <div class="row">
                     <div class="col-12">
