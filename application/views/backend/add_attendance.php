@@ -68,6 +68,7 @@
                                                     <option value="office" <?php if(isset($attval->place) && $attval->place == "office") { echo "selected"; } ?>>Office</option>
                                                     <option value="field"  <?php if(isset($attval->place) && $attval->place == "field") { echo "selected"; } ?>>Field</option>
                                                 </select>
+                                                <!-- form updated -->
                                         </div> 
                                     </div>
                                     <div class="modal-footer">
