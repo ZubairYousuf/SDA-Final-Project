@@ -13,6 +13,7 @@
                     </ol>
                 </div>
             </div>
+            <!--container flud div added -->
         <div class="container-fluid">
                 <div class="row m-b-10"> 
                     <div class="col-12">
