@@ -18,7 +18,7 @@ class Dashboard extends CI_Controller {
     
 	public function index()
 	{
-		#Redirect to Admin dashboard after Authenticatiom
+		#Redirect to Admin dashboard after authenticatiom
         if ($this->session->userdata('user_login_access') == 1)
             redirect('dashboard/Dashboard');
             $data=array();
@@ -74,7 +74,7 @@ class Dashboard extends CI_Controller {
 		} else {
 			$message="Something went wrong";
             echo $message;		
-            // To_dp fucntion rechecked	
+            // To do fucntion rechecked	
 		}
 	}    
     
