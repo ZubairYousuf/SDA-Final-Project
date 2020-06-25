@@ -3,7 +3,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Leave extends CI_Controller
 {
-    
+    //completely coded the leave controller
+
     /**
      * Index Page for this controller.
      *
