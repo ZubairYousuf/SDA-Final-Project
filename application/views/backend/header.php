@@ -20,6 +20,7 @@ date_default_timezone_set('Asia/Dhaka');
     <link href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/2.0.46/css/materialdesignicons.min.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>assets/plugins/morrisjs/morris.css" rel="stylesheet">
     <!-- Custom CSS -->
+    <!-- custom bootstrap -->
     <link href="<?php echo base_url(); ?>assets/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet">
     
     <link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet" media="all">
