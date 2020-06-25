@@ -5,7 +5,7 @@
     <div class="row page-titles">
         <div class="col-md-5 align-self-center">
             <h3 class="text-themecolor"><i class="fa fa-fighter-jet" style="color:#1976d2"> </i> Application</h3>
-        </div>
+            </div>
         <div class="col-md-7 align-self-center">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
