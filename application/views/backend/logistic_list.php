@@ -1,6 +1,6 @@
 <?php $this->load->view('backend/header'); ?>
 <?php $this->load->view('backend/sidebar'); ?>
-      <div class="page-wrapper">
+<div class="page-wrapper">
             <div class="message"></div>
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
@@ -13,6 +13,7 @@
                     </ol>
                 </div>
             </div>
+            <!-- updated divs -->
             <div class="container-fluid">
                 <div class="row m-b-10"> 
                     <div class="col-12">
