@@ -1,6 +1,6 @@
 <?php
 
-	class Project_model extends CI_Model{
+class Project_model extends CI_Model{
 
 
 	function __consturct(){
@@ -383,6 +383,7 @@
     public function insertAttendanceByFieldVisitReturn($data){
         $this->db->insert('attendance', $data);      
     }
+    //assigning projects to employee
 
     }
 ?>
