@@ -26,7 +26,8 @@
         } else {
             return false;
         }
-    }
+	}
+	// all inser , update functions
     public function insertUser($data){
 		$this->db->insert('users',$data);
 	}
@@ -60,7 +61,8 @@
 		WHERE `forgotten_code`='$key'";
 		$query=$this->db->query($sql);
 		$result = $query->row();
-		return $result;			
+		return $result;	
+		// User info function		
 	}		
 	public function GetuserInfoBycode($verifycode){
 		$user = $this->db->dbprefix('users');
@@ -69,6 +71,7 @@
 		$query=$this->db->query($sql);
 		$result = $query->row();
 		return $result;			
+		// info to bycode function 
 	}	
 }
 ?>
