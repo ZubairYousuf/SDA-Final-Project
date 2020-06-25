@@ -15,18 +15,21 @@
         $query=$this->db->query($sql);
         $result = $query->result();
         return $result;
+        // to do info function
     }
     public function GetRunningProject(){
         $sql = "SELECT * FROM `project` WHERE `pro_status`='running' ORDER BY `id` DESC";
         $query=$this->db->query($sql);
         $result = $query->result();
         return $result;
+        // Project runninf function
     }
     public function GetHolidayInfo(){
         $sql = "SELECT * FROM `holiday` ORDER BY `id` DESC LIMIT 10";
         $query=$this->db->query($sql);
         $result = $query->result();
         return $result;
+        // Holiday Function
     }
 	public function UpdateTododata($id,$data){
 		$this->db->where('id', $id);
